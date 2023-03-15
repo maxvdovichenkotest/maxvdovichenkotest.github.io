@@ -1,3 +1,9 @@
 div {
   color: red;
 }
+
+.PaymentDetailHeader{
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+}
