@@ -1,5 +1,5 @@
 html {
-  overflow: scroll!important;
+  overflow-y: auto!important;
   width: 100%!important;
 }
 
@@ -10,9 +10,9 @@ html {
 }
 
 .card-info {
-  display: flex;
+  /*display: flex;
   width: 80%;
-  justify-content: space-between;
+  justify-content: space-between;*/
   margin-bottom: 5px;
 }
 
@@ -20,7 +20,7 @@ html {
   margin-bottom: 0;
 }
 
-#c-cardnumber-error, #c-cardname-error, #c-exyr-error {
+#c-cardnumber-error, #c-cardname-error, #c-exyr-error, #c-amt-error {
   color: red; 
   font-size: .7em;
   font-weight: 600;
@@ -32,9 +32,16 @@ html {
 }
 
 #lbl-c-exmth {
-  margin-right: 34%;
+/*   margin-right: 34%; */
+}
+
+#lbl-c-ct {
+  margin-right: 7%;
 }
 
 #lbl-c-amt {
-  margin-right: 43%;
+  margin-right: 11%;
+}
+#lbl-c-cardnumber {
+  margin-right: 5%;
 }
