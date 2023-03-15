@@ -3,10 +3,8 @@ html {
   width: 100%!important;
 }
 
-.PaymentDetailHeader {
-  text-align: center;
-  font-weight: 700;
-  font-family: sans-serif;
+input, select {
+  border-radius: 5px;
 }
 
 .card-info {
@@ -36,12 +34,12 @@ html {
 }
 
 #lbl-c-ct {
-  margin-right: 7%;
+  margin-right: 39px;
 }
 
 #lbl-c-amt {
-  margin-right: 11%;
+  margin-right: 58px;
 }
 #lbl-c-cardnumber {
-  margin-right: 5%;
+  margin-right: 26px;
 }
