@@ -8,6 +8,8 @@ div {
   font-family: sans-serif;
 }
 
-#c-ct {
-  border-radius: 5px;
+.card-info {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
 }
