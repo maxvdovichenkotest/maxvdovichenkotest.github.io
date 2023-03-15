@@ -1,6 +1,6 @@
 html {
-  overflow: scroll;
-  width: 100%;
+  overflow: scroll!important;
+  width: 100%!important;
 }
 
 .PaymentDetailHeader {
@@ -20,7 +20,7 @@ html {
   margin-bottom: 0;
 }
 
-#c-cardnumber-error, #c-cardname-error {
+#c-cardnumber-error, #c-cardname-error, #c-exyr-error {
   color: red; 
   font-size: .7em;
   font-weight: 600;
