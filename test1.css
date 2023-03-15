@@ -2,8 +2,9 @@ div {
   color: red;
 }
 
-body {
-  width: 425px;
+html {
+  overflow: scroll;
+  width: 100%;
 }
 
 .PaymentDetailHeader {
