@@ -39,7 +39,10 @@ input, select {
 
 #lbl-c-amt {
   margin-right: 58px;
-  pointer-events: none;
+}
+#c-amt {
+    pointer-events: none;
+    background: lightgrey;
 }
 #lbl-c-cardnumber {
   margin-right: 26px;
